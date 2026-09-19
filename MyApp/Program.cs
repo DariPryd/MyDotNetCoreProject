@@ -6,11 +6,11 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
-        GreetUser("User");
+        GreetUser("Student");
     }
 
     static void GreetUser(string name)
     {
-        Console.WriteLine($"Hello, {name}!");
+        Console.WriteLine($"Hello, {name}! Добре виконуйте завдання");
     }
 }
